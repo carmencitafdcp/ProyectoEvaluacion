@@ -1,13 +1,13 @@
-package com.salesianostriana.dam.ejercicio_evaluacion;
+package com.salesianostriana.dam.proyecto_evaluacion;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EjercicioEvaluacionApplication {
+public class ProyectoEvaluacionApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EjercicioEvaluacionApplication.class, args);
+		SpringApplication.run(ProyectoEvaluacionApplication.class, args);
 	}
 
 }

@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.0.0</version>
+		<version>3.5.8</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.salesianostriana.dam</groupId>
-	<artifactId>ejercicio_evaluacion</artifactId>
+	<artifactId>proyecto_evaluacion</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ejercicio_evaluacion</name>
+	<name>proyecto_evaluacion</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -36,7 +36,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webmvc</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
@@ -51,12 +51,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webmvc-test</artifactId>
+			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
